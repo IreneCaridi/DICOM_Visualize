@@ -1,7 +1,6 @@
             path=uigetdir('SEO');
             [V,spatial,~]=dicomreadVolume(fullfile(path));
             V=squeeze(V);
-            spatial;
 
             if app.FigureButton.Value==true
                 figure
